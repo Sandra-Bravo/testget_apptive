@@ -1,0 +1,133 @@
+1.Escriba los pasos a seguir para instalar y abrir una aplicación en un simulador controlado por appium server (windows y mac).
+
+*Instalar appium
+*Instala Android Studio
+*Configurar variables de entorno de android
+*Crear un new project de android
+*Seleccionar del banner de herramientas "Tools/SDK Manager"
+*Descargar SDK Manager
+*Seleccionar del banner de herramientas "Tools/AVD Manager"
+*Descarga versión del Emulador
+*Abrir Appium
+*Start server
+*Dar clic en la lupa de appium
+*En la parte inferior colocar la configuración de las capabilities
+*Guardar y ejecutar
+
+2. Describa los siguientes conceptos de POO:
+
+*Clase: Conjunto de metodos y atributos de un entorno
+*Metodo: Conjunto de instrucciones para realizar un acción determinada de la clase
+*Objeto: Es un conjunto de atributos de la clase
+*Herencia: Se utiliza para poder migrar los metodos y objetos de una clase padre a una clase hija
+*Instanciar: Hacer referencia a un objeto determinado de una clase
+*Atributos: Son las caracteristicas que conforman a la clase
+
+3. Con que reglas de negocio de fútbol realizar una descripción de ejemplo de cada uno de los conceptos anteriores.
+
+Clase: La clase se llama Futbol
+Metodos: los metodos de la clase Futbol son JugarPelota, AnotarPelota
+Herencia: Hay otra clase hija llamada Futbol americano que hereda los metodos JugarPelota, AnotarPelota, de la clase Futbol
+Instanciar: se realiza una instancia en un objeto de la clase Futbol y la clase Jugador en una nueva clase ejecutable
+Atributos: son las caracteristicas de las clase Futbol y Futbol americano
+
+
+
+4.¿Qués en Maven?
+
+Es un herramienta para la gestion de proyectos 
+
+5. ¿Qúe comando se necesita para crear un proyecto MAVEN?
+
+mvn archetype -groupId:"com.Appium.Ejemplo" -artifactId:"Ejemplo";
+
+
+6. Mencione para qué sirve el archivo POM y describa las siguientes partes del archivo:
+
+
+El archivo POM sirve para la gestion de las dependencias del proyecto y sus configuraciones
+
+*groupId es el paquete al que hara referencia el proyecto
+*artifactId es el nombre del proyecto
+*version versión del proyecto de maven
+*dependecias etiqueta para hacer mención a las dependencias que utilizara el proyecto
+*dependency etiqueta que engloba la dependencia que se utilizara para descargar en el proyecto 
+*profiles se utiliza para hacer mencion a la configuración de los perfiles
+*profile  etiqueta para hacer mencion al nombre del perfil
+*properties etiqueta para hacer referencia a las propiedades del perfil 
+
+7. Mencione con qué comando de MAVEN se limpia las dependencias.
+
+mvn clean
+
+8. Mencione con qué comando de MAVEN se realiza una verificación de sintaxis de la aplicación.
+
+mvn compile
+
+9. Con qué comando se crea el paquete de la aplicación.
+
+mvn install
+
+10.Mencione el comando para correr una aplicación básica de MAVEN
+
+mvn Test -P Profile
+
+11. ¿Qué es GIT y para qué sirve?
+
+Es una herramienta que se utiliza para poder crear repositorios y subir cambios de una rama
+
+12. ¿Qué es un repositorio?
+
+Es una herramienta de trabajo Web para almacenar o contener información 
+
+
+13. Mencione el comando para traer cambios de versión de un proyecto del repositorio remoto al repositorio local
+
+
+14.¿Qué comando se utiliza para salvar cambios en tu repositorio local?
+
+
+
+15.¿Qué comando se utiliza para crear una rama?
+
+
+16.¿Qué comando se utiliza para crear una rama y cambiarte a esa rama?
+
+
+17.¿Qué comando se utiliza para enviar tus cambios a un repositorio remoto?
+merch branch rama
+
+18.¿Qué se refiere el concepto integración continua?
+
+A la integración de los cambios que se van contruyendo en un .war constantemente
+
+
+19.Menciona los selectors que conozcas y el orden de prioridad para usarlos.
+
+Id
+
+20.¿Qué es un Framework?
+
+Es un marco de trabajo, para la gestion de un proyecto java
+
+
+21.¿Qué es un Page Object Pattern?
+
+Es el modelo utlizado para separar las clases segun el paquete correspondiente
+
+
+22.Describir la clase en pantalla:
+
+Linea       Descripción
+
+1.          Pertenece al Paquete tatech_appium.driver               
+14.         La clase se llama MyDriver. Y es una clase hija que hereda de la clase DriverConfiguration
+16.         Se realiza una instancia de tipo Logger al objeto Log que contiene el 
+17.         Se declara una variable driver de  tipo AndroidDriver de tipo protegido
+20.         Se realiza una instancia de la clase File para almacenar el apk
+22.    Se realiza una instancia de  tipo DesiredCapabilities
+23. a 29    Se realiza la configuración del emulador con su plataforma, version de emulador, nombre de la apk y permisos true
+30. En el objeto driver se guarda las configuraciones realizadas
+
+
+33. Se crea un metodo getDriver de tipo AndroidDrive para hacer referencia al driver
